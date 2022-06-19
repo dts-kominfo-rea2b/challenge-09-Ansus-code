@@ -6,7 +6,9 @@ import './App.css';
 const App = () => {
   // Masukkan Header dan Contact ke dalam div App
   return (
-    <div className="App">
+    <div className="App main">
+    <header title="Your Friendly contac app">
+    <Contac contacts= {contacts} />
       
     </div>
   );
